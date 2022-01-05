@@ -1,0 +1,260 @@
+# codigos para o Git :computer: 
+
+**primeiro projeto **
+
+
+
+**codigos para criar pasta*
+
+
+
+- nicolas@DESKTOP-6SLSNTF MINGW64 ~
+
+$ ssh-keygen -t ed25519 -C nicolasdossantospessoa@gmail.com
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/Nicolas/.ssh/id_ed25519):
+/c/Users/Nicolas/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Nicolas/.ssh/id_ed25519
+Your public key has been saved in /c/Users/Nicolas/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:VU3HLlgl+vaftt3nnzBkjgELb7Bc37UmO8eISHZcoPc nicolasdossantospessoa@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|           ..oooo|
+|          ....oo.|
+|       o +...+ o |
+|      . *.* =.o o|
+|       oS* = Eo+ |
+|        + o B.*. |
+|         . o B o.|
+|              =.B|
+|              .=X|
++----[SHA256]-----+
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 ~
+
+$ ^C
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 ~
+
+$ cd /c/Users/Nicolas/.ssh/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 ~/.ssh
+
+$ ls
+id_ed25519  id_ed25519.pub
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 ~/.ssh
+
+$ cat id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDIpMDnznMGQyD7XnM1PW0HjMH2Zo20jjQ/mWOKz4n/H nicolasdossantospessoa@gmail.com
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 ~/.ssh
+
+$ ls
+id_ed25519  id_ed25519.pub
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 ~/.ssh
+
+$ pwd
+/c/Users/Nicolas/.ssh
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 ~/.ssh
+
+$ eval $(ssh-agent -s)
+Agent pid 832
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 ~/.ssh
+
+$ ls
+id_ed25519  id_ed25519.pub
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 ~/.ssh
+
+$ ssh-add id_ed25519
+Enter passphrase for id_ed25519:
+Identity added: id_ed25519 (nicolasdossantospessoa@gmail.com)
+
+Nicolas@DESKTOP-6SLSNTF MINGW64 /c
+$ ls
+'$GetCurrent'/              ESD/                    Recovery/
+'$Recycle.Bin'/             Intel/                 'System Volume Information'/
+'$WINDOWS.~BT'/             MSOCache/               Users/
+'$WinREAgent'/              OneDriveTemp/           Windows/
+'$Windows.~WS'/             PerfLogs/               Workspace/
+'Arquivos de Programas'@   'Program Files'/         hiberfil.sys
+'Documents and Settings'@  'Program Files (x86)'/   pagefile.sys
+ DumpStack.log.tmp          ProgramData/            swapfile.sys
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c
+
+$ cd Workspace/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Workspace
+
+$ cd ..
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c
+
+$ ls
+'$GetCurrent'/             'Primeiro projeto do Git e Github'/
+'$Recycle.Bin'/            'Program Files'/
+'$WINDOWS.~BT'/            'Program Files (x86)'/
+'$WinREAgent'/              ProgramData/
+'$Windows.~WS'/             Recovery/
+'Arquivos de Programas'@   'System Volume Information'/
+'Documents and Settings'@   Users/
+ DumpStack.log.tmp          Windows/
+ ESD/                       Workspace/
+ Intel/                     hiberfil.sys
+ MSOCache/                  pagefile.sys
+ OneDriveTemp/              swapfile.sys
+ PerfLogs/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c
+
+$ cd Primeiro\ projeto\ do\ Git\ e\ Github/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github
+
+$ mkdir anotações
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github
+
+$ ls
+anotações/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github
+
+$ cd ..
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c
+
+$ ls
+'$GetCurrent'/             'Primeiro projeto do Git e Github'/
+'$Recycle.Bin'/            'Program Files'/
+'$WINDOWS.~BT'/            'Program Files (x86)'/
+'$WinREAgent'/              ProgramData/
+'$Windows.~WS'/             Recovery/
+'Arquivos de Programas'@   'System Volume Information'/
+'Documents and Settings'@   Users/
+ DumpStack.log.tmp          Windows/
+ ESD/                       Workspace/
+ Intel/                     hiberfil.sys
+ MSOCache/                  pagefile.sys
+ OneDriveTemp/              swapfile.sys
+ PerfLogs/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c
+
+$ cd Primeiro\ projeto\ do\ Git\ e\ Github/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github
+
+$ ls
+'Priemeiro projeto e aprendizados'/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github
+
+$ cd Priemeiro projeto e aprendizados/
+bash: cd: too many arguments
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github
+
+$ cd Priemeiro projeto e aprendizados´/
+bash: cd: too many arguments
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github
+
+$ cd Priemeiro projeto e aprendizados/
+bash: cd: too many arguments
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github
+
+$ cd Priemeiro\ projeto\ e\ aprendizados/
+
+Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github/Priemeiro projeto e aprendizados
+$ giti init
+bash: giti: command not found
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github/Priemeiro projeto e aprendizados
+
+$ git init
+Initialized empty Git repository in C:/Primeiro projeto do Git e Github/Priemeiro projeto e aprendizados/.git/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github/Priemeiro projeto e aprendizados (master)
+
+$ ls
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github/Priemeiro projeto e aprendizados (master)
+
+$ ls -a
+./  ../  .git/
+
+Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github/Priemeiro projeto e aprendizados (master)
+$ cd .git/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github/Priemeiro projeto e aprendizados/.git (GIT_DIR!)
+
+$ ls
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github/Priemeiro projeto e aprendizados/.git (GIT_DIR!)
+
+$ cd ..
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github/Priemeiro projeto e aprendizados (master)
+
+$ cd ..
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github
+
+$ cd Priemeiro\ projeto\ e\ aprendizados/
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github/Priemeiro projeto e aprendizados (master)
+
+$ git config --global user.email "nicolasdossantospessoa@gmail.com"
+
+- Nicolas@DESKTOP-6SLSNTF MINGW64 /c/Primeiro projeto do Git e Github/Priemeiro projeto e aprendizados (master)
+
+$ git config --global user.name "Nicolas"
+
+
+
+
+
+# como esta sendo a criação do primiero projeto #
+
+
+
+Estou quebrando a minha cabeça mas estou aprendendo cada dia mais so tenho a agradeçer a "DIO" 
+
+# agora irei mostrar os codigos do commit :desktop_computer::computer:#
+
+**git add* **  -> para adicionar o arquivo de texto 
+
+**git commit -m "commit ininicial" ** -> para indetificar qual e o arquivo que adicionamos 
+
+**ls** -> para ver os arquivos da pasta 
+
+**git status** -> para monitorar os arquivos 
+
+**mkdir codigos**  -> criar pasta 
+
+**mv** -> para mover para a pasta de codigos 
+
+"mv criação de pasta do Git.md ./codigos"
+
+**git  add   criação de pasta do Git.md codigos/ ** -> para adicinar os argivos 
+
+**git commit -m "crias pasta codigos, move arquivo para codigos  " ** -> quais arquivos modificados 
+
+echo > README.md -> para criar arquivo para o github
+
+ 
+
+
+
